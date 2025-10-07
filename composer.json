@@ -1,5 +1,5 @@
 {
-    "name": "Artemib/overlay-calendar",
+    "name": "artemib/overlay-calendar",
     "description": "Advanced calendar component for MoonShine with rich functionality and flexible customization",
     "type": "library",
     "keywords": ["laravel", "moonshine", "calendar", "component", "ui"],

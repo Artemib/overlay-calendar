@@ -26,7 +26,7 @@
 cp -r overlay-calendar-component/* your-project/
 
 # Или установите как пакет
-composer require Artemib/overlay-calendar
+composer require artemib/overlay-calendar
 ```
 
 ### Базовое использование
@@ -129,7 +129,7 @@ OverlayCalendar::make('calendar')
 ## 🆘 Поддержка
 
 - 📧 Email: artem@example.com
-- 🐛 Issues: [GitHub Issues](https://github.com/Artemib/overlay-calendar/issues)
+- 🐛 Issues: [GitHub Issues](https://github.com/artemib/overlay-calendar/issues)
 - 📖 Документация: [docs/](docs/)
 
 ## 🙏 Благодарности
