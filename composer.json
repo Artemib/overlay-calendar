@@ -1,0 +1,40 @@
+{
+    "name": "artemib/overlay-calendar",
+    "description": "Advanced calendar component for MoonShine with rich functionality and flexible customization",
+    "type": "library",
+    "keywords": ["laravel", "moonshine", "calendar", "component", "ui"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artem",
+            "email": "artem@example.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.0",
+        "moonshine/moonshine": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Artemib\\OverlayCalendar\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Artemib\\OverlayCalendar\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Artemib\\OverlayCalendar\\OverlayCalendarServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
